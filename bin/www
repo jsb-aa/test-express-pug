@@ -1,9 +1,5 @@
 #!/usr/bin/env node
 
-npx sequelize db:migrate
-
-npx sequelize db:seed:all
-
 const port = process.env.PORT || '8080';
 
 const app = require('../app');
